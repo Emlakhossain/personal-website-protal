@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Personal Web Application",
+        "img": "",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+        "price": 500
+    },
+    {
+        "id": 2,
+        "name": "Servicing Company Web Application",
+        "img": "",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+        "price": 300
+    },
+    {
+        "id": 3,
+        "name": "Small Ecommerce Web Application",
+        "img": "",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+        "price": 100
+    },
+    {
+        "id": 4,
+        "name": "Doctors Chamber Web Application",
+        "img": "",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+        "price": 500
+    },
+    {
+        "id": 5,
+        "name": "Doctors Chamber Web Application",
+        "img": "",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+        "price": 500
+    },
+    {
+        "id": 6,
+        "name": "Doctors Chamber Web Application",
+        "img": "",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+        "price": 500
+    }
+]
