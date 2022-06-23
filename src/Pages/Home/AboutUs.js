@@ -15,10 +15,10 @@ const AboutUs = () => {
                 <div>
                     <h4 className='mb-5'>Please Give Your Feedback:</h4>
                     <form onSubmit={handleFormSubmit} >
-                        <input type="text" placeholder="Name" class="input input-bordered input-secondary w-full max-w-xs mb-2" />
-                        <input type="email" placeholder="Email" class="input input-bordered input-secondary w-full max-w-xs mb-2" />
-                        <input type="password" placeholder="Password" class="input input-bordered input-secondary w-full max-w-xs mb-2" />
-                        <textarea type="text" placeholder="Bio" class="input input-bordered input-secondary w-full max-w-xs mb-2 h-40" />
+                        <input type="text" placeholder="Name" class="input input-bordered input-secondary w-full max-w-xs mb-2" required />
+                        <input type="email" placeholder="Email" class="input input-bordered input-secondary w-full max-w-xs mb-2" required />
+                        <input type="password" placeholder="Password" class="input input-bordered input-secondary w-full max-w-xs mb-2" required />
+                        <textarea type="text" placeholder="Bio" class="input input-bordered input-secondary w-full max-w-xs mb-2 h-40" required />
                         <button type='submit' class="btn btn-wide w-full max-w-xs">Submit</button>
                     </form>
                 </div>
