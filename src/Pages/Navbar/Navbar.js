@@ -7,7 +7,6 @@ const Navbar = () => {
         <li><Link to='/service'>Services</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/contact'>Contact US</Link></li>
-        <li><Link to='/login'>Login</Link></li>
     </>
 
 
@@ -32,6 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="flex-none gap-2 navbar-end">
+                <li><Link to='/login'>Login</Link></li>
                 <div class="form-control">
                     <input type="text" placeholder="Search" class="input input-bordered" />
                 </div>
