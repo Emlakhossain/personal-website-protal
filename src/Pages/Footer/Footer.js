@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
+
     return (
         <footer class="footer footer-center p-10 bg-warning text-base-content rounded">
             <div class="grid grid-flow-col gap-4">
@@ -17,7 +18,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+                <p>Copyright © 2022 - All right reserved by imran.webprotal</p>
             </div>
         </footer>
     );

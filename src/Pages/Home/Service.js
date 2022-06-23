@@ -3,7 +3,7 @@ import React from 'react';
 const Service = ({ service }) => {
     const { img, price, ourService, name } = service;
     return (
-        <div class="card w-96 bg-base-100 text-center shadow-xl">
+        <div class="card w-96 bg-base-100 text-center shadow-xl mb-20">
             <figure class="px-10 pt-10">
                 <img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" class="rounded-xl" />
             </figure>
