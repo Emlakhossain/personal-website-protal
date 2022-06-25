@@ -31,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="flex-none gap-2 navbar-end">
-                <li><Link to='/login'>Login</Link></li>
+                <Link to='/login'><button className='btn'>Login</button></Link>
                 <div class="form-control">
                     <input type="text" placeholder="Search" class="input input-bordered" />
                 </div>

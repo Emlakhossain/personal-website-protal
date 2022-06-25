@@ -2,43 +2,37 @@
     {
         "id": 1,
         "name": "Personal Web Application",
-        "img": "",
-        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
-        "price": 500
+        "img": "https://colorlib.com/wp/wp-content/uploads/sites/2/personal-free-template.jpg",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services"
     },
     {
         "id": 2,
-        "name": "Servicing Company Web Application",
-        "img": "",
-        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
-        "price": 300
+        "name": "Service Web Application",
+        "img": "https://cdn.motocms.com/src/868x580/55800/55856-original-1200.jpg",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services"
     },
     {
         "id": 3,
-        "name": "Small Ecommerce Web Application",
-        "img": "",
-        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
-        "price": 100
+        "name": "Ecommerce Web Application",
+        "img": "https://helpiewp.com/wp-content/uploads/2018/08/Create-a-free-ecommerce-website-1024x650.png",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services"
     },
     {
         "id": 4,
-        "name": "Doctors Chamber Web Application",
-        "img": "",
-        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
-        "price": 500
+        "name": "Doctors Chamber Application",
+        "img": "https://uicookies.com/wp-content/uploads/2019/02/free-doctor-website-templates-1.jpg",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services"
     },
     {
         "id": 5,
-        "name": "Doctors Chamber Web Application",
-        "img": "",
-        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
-        "price": 500
+        "name": "Booking Web Application",
+        "img": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/107087072/original/a70c24141a7a01aaffedd1d7a92358a9ee77f499/build-a-hotel-booking-website.jpg",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services"
     },
     {
         "id": 6,
-        "name": "Doctors Chamber Web Application",
-        "img": "",
-        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
-        "price": 500
+        "name": "Landing Page Application",
+        "img": "https://i0.wp.com/themes.svn.wordpress.org/builders-landing-page/1.0.8/screenshot.png",
+        "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services"
     }
 ]
