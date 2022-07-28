@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Service = ({ service }) => {
-    const { img, price, ourService, name } = service;
-
-
+const UseService = ({ service }) => {
+    const { img, name, price, ourService } = service;
     return (
         <div class="card w-96 bg-base-100 text-center shadow-xl mb-20">
             <figure class="px-10 pt-10">
@@ -22,4 +20,4 @@ const Service = ({ service }) => {
     );
 };
 
-export default Service;
+export default UseService;
