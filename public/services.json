@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "Full Stack Development",
-    "img": "",
+    "img": "https://i.ibb.co/HrqCxmg/full-stack.jpg",
     "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
     "price": 500
   },
   {
     "id": 2,
     "name": "Font End Development",
-    "img": "",
+    "img": "https://i.ibb.co/xHSYWzb/font-end.jpg",
     "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
     "price": 300
   },
   {
     "id": 3,
     "name": "Landing Page Development",
-    "img": "",
+    "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
     "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
     "price": 100
   }
