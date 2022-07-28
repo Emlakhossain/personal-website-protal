@@ -22,7 +22,7 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Imran.webProtal</a>
+                <Link to="/"> <a class="btn btn-ghost normal-case text-xl">Imran.webProtal</a></Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

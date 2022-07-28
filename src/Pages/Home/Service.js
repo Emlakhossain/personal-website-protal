@@ -2,7 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Service = ({ service }) => {
-    const { img, price, ourService, name } = service;
+    const { _id, img, price, ourService, name } = service;
+
+    const producthandler = (event) => {
+
+    }
     return (
         <div class="card w-96 bg-base-100 text-center shadow-xl mb-20">
             <figure class="px-10 pt-10">
@@ -13,7 +17,7 @@ const Service = ({ service }) => {
                 <p>{ourService}</p>
                 <p>Budget:${price}</p>
                 <div class="card-actions">
-                    <Link to="/product/:id"> <button class="btn btn-warning w-60">Buy Now</button></Link>
+                    <Link onClick={producthandler(_id)} to="/product/:id"> <button class="btn btn-warning w-60">Buy Now</button></Link>
                 </div>
             </div>
         </div>
