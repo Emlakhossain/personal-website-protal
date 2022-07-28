@@ -3,7 +3,7 @@ import React from 'react';
 const Faqs = () => {
     return (
         <div>
-            <h2 className='text-3xl text-center font-bold my-20'>FAQS</h2>
+            <h2 className='text-3xl text-center font-bold my-20 underline'>FAQS</h2>
             <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-5 mx-auto ml-20'>
                 <div className='w-3/4'>
                     <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box my-5">
@@ -47,37 +47,37 @@ const Faqs = () => {
                     <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box my-5">
                         <input type="checkbox" class="peer" />
                         <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            What about your payment policy?
+                            What about your services for clients?
                         </div>
                         <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                            <p>Yes, we have many difference type of services for you. First of all we have web development, digital marketing and SEO services are available. </p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box my-5">
                         <input type="checkbox" class="peer" />
                         <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            What about your payment policy?
+                            Are you expert of those services?
                         </div>
                         <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                            <p>Yup, we have expertise following services at least 2years to 10 years. don't worry about it.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box my-5">
                         <input type="checkbox" class="peer" />
                         <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            What about your payment policy?
+                            How can i get service from you?
                         </div>
                         <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                            <p>Already we have way to order any services you can click on Buy now button and flow this instructions. hopefully you may get service. </p>
                         </div>
                     </div>
                     <div class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box my-5">
                         <input type="checkbox" class="peer" />
                         <div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            What about your payment policy?
+                            Have any clime opportunity to you?
                         </div>
                         <div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+                            <p>Yes, if you have face any problems you can clime our customer feedback side.</p>
                         </div>
                     </div>
                 </div>
