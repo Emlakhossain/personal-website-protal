@@ -19,5 +19,26 @@
     "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
     "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
     "price": 100
+  },
+  {
+    "id": 4,
+    "name": "MERN Stack Development",
+    "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
+    "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+    "price": 1000
+  },
+  {
+    "id": 5,
+    "name": "Wordpress Development",
+    "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
+    "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+    "price": 100
+  },
+  {
+    "id": 6,
+    "name": "Digital Marketing",
+    "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
+    "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+    "price": 100
   }
 ]
