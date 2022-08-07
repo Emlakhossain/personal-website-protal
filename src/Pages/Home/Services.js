@@ -11,10 +11,10 @@ const Services = () => {
             .then(data => setServices(data.slice(0, 3)))
     }, [])
     return (
-        <div>
+        <div className=''>
             <h2 className='text-3xl text-center font-bold my-20'>Our Services</h2>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-4 ml-14 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-20'>
                 {
                     services.map(service => <Service
                         key={service._id}

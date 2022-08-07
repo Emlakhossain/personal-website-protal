@@ -13,7 +13,7 @@ const UseService = ({ service }) => {
                 <p>{ourService}</p>
                 <p>Budget:${price}</p>
                 <div class="card-actions">
-                    <Link to="/product/:id"> <button class="btn btn-warning w-60">Buy Now</button></Link>
+                    <Link to="/product/:id"> <button class="btn btn-warning w-60 hover:text-white hover:btn-success">Booked service</button></Link>
                 </div>
             </div>
         </div>

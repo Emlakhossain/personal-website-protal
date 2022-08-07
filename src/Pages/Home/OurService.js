@@ -17,7 +17,7 @@ const OurService = () => {
         <>
             <Slider></Slider>
             <h2 className='text-orange text-3xl font-bold text-center my-20'>Our Services</h2>
-            <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+            <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-20'>
                 {
                     useServices.map(service => <UseService
                         useService={service._id}
