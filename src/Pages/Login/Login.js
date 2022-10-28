@@ -22,7 +22,7 @@ const Login = () => {
                             </label>
                         </div>
                         <div className='text-center'>--------------or---------------</div>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-4 m-10'>
                             <div><button className='btn btn-success'>Logging With Google</button></div>
                             <div><button className='btn btn-success'>Logging With Facebook</button></div>
                         </div>
