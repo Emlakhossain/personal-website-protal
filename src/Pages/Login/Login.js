@@ -21,6 +21,11 @@ const Login = () => {
                                 <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
                             </label>
                         </div>
+                        <div className='text-center'>--------------or---------------</div>
+                        <div className='flex gap-2'>
+                            <div><button className='btn btn-success'>Logging With Google</button></div>
+                            <div><button className='btn btn-success'>Logging With Facebook</button></div>
+                        </div>
                         <div class="form-control mt-6">
                             <button class="btn btn-primary">Login</button>
                         </div>
