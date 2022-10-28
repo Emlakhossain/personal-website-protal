@@ -9,7 +9,7 @@ const ContactUs = () => {
     }
     return (
         <>
-            <div class="hero min-h-screen bg-success">
+            <div class="hero min-h-screen bg-gray">
                 <div class="contact-img flex-col hero-content lg:flex-row-reverse">
                     <img width={600} src={bannerImage} class="max-w-sm rounded-lg shadow-2xl" />
                     <div className='contact-text'>
