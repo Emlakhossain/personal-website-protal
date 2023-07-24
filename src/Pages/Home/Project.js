@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => {
     const { name, ourService, price, img } = project;
@@ -11,8 +12,9 @@ const Project = ({ project }) => {
             <div class="card-body items-center text-center">
                 <h2 class="card-title">{name}</h2>
                 <p className='text-start'>{ourService}</p>
-
+               <Link to="/pricing"> <button className='btn btn-warning w-60  '>View Detail</button></Link>
             </div>
+            
         </div>
     );
 };

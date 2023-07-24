@@ -16,6 +16,7 @@ const OurService = () => {
     }, [])
     return (
         <>
+<<<<<<< HEAD
             <div className='service-container grid grid-cols-1 gap-10 lg:grid-cols-2'>
                 <div className='flex items-center p-10 sm:text-center'>
 
@@ -27,6 +28,11 @@ const OurService = () => {
             </div>
             <h2 className='text-orange text-3xl font-bold text-center my-20'>WHAT WE OFFER</h2>
             <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-20'>
+=======
+            <Slider></Slider>
+            <h2 className='text-orange text-3xl font-bold text-center my-20'>Our Services</h2>
+            <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 '>
+>>>>>>> 8815b8172c99a3dd51d72c6ea47d30417c33b7c7
                 {
                     useServices.map(service => <UseService
                         useService={service._id}
