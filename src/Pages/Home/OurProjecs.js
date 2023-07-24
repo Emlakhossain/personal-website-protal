@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Project from './Project';
-import background from '../../img/project-bg.png';
 const OurProjecs = () => {
     const [projects, setProjects] = useState([]);
 

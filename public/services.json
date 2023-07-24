@@ -40,5 +40,19 @@
     "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
     "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
     "price": 100
+  },
+  {
+    "id": 7,
+    "name": "SEO Service",
+    "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
+    "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+    "price": 200
+  },
+  {
+    "id": 7,
+    "name": "SEO Service",
+    "img": "https://i.ibb.co/4MwH1fr/landing-page.jpg",
+    "ourService": "We will provide to you complete web site development service.We provide customer satisfaction services",
+    "price": 200
   }
 ]
