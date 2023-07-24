@@ -9,11 +9,7 @@ import ContactUs from './Pages/Home/ContactUs';
 import ProductDetail from './Pages/Home/ProductDetail';
 import AboutUs from './Pages/Home/AboutUs';
 import OurService from './Pages/Home/OurService';
-<<<<<<< HEAD
 import Blogs from './Pages/Home/Blogs';
-=======
-import Pricing from './Pages/Pricing/Pricing';
->>>>>>> 8815b8172c99a3dd51d72c6ea47d30417c33b7c7
 
 function App() {
   return (
@@ -24,7 +20,6 @@ function App() {
         <Route path='/ourService' element={<OurService></OurService>}></Route>
         <Route path='/product/:id' element={<ProductDetail></ProductDetail>}></Route>
         <Route path='/contact' element={<ContactUs></ContactUs>}></Route>
-        <Route path='/pricing' element={<Pricing></Pricing>}></Route>
         <Route path='/about' element={<AboutUs></AboutUs>}></Route>
         <Route path='/blog' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>

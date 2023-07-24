@@ -8,11 +8,9 @@ const Navbar = () => {
         <li><Link to='/ourService'>Our Service</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/contact'>Contact US</Link></li>
-<<<<<<< HEAD
         <li><Link to='/blog'>Blogs</Link></li>
-=======
         <li><Link to='/pricing'>Pricing</Link></li>
->>>>>>> 8815b8172c99a3dd51d72c6ea47d30417c33b7c7
+
     </>
 
 

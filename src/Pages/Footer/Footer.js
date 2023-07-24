@@ -3,11 +3,9 @@ import React from 'react';
 const Footer = () => {
 
     return (
-<<<<<<< HEAD
-        <footer class="footer footer-center p-10 bg-gray-300 text-base-content rounded">
-=======
+
         <footer class="footer footer-center p-10 bg-neutral  text-white rounded">
->>>>>>> 8815b8172c99a3dd51d72c6ea47d30417c33b7c7
+
             <div class="grid grid-flow-col gap-4">
                 <a class="link link-hover">About us</a>
                 <a class="link link-hover">Contact</a>
