@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import Slider from './Slider';
 
 const OurService = () => {
+
     const [useServices, setUseServices] = useState([]);
 
     useEffect(() => {
@@ -26,20 +27,16 @@ const OurService = () => {
                     <img src={service} alt="" />
                 </div>
             </div>
-            <h2 className='text-orange text-3xl font-bold text-center my-20'>WHAT WE OFFER</h2>
-            <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-20'>
+            <p className='text-orange font-bold text-center pt-5'>WHAT WE OFFER</p>
+            <h2 className='text-orange text-3xl font-bold text-center mb-10'>Our Services</h2>
+            <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 '>
 
-                <Slider></Slider>
-                <h2 className='text-orange text-3xl font-bold text-center my-20'>Our Services</h2>
-                <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 '>
-
-                    {
-                        useServices.map(service => <UseService
-                            useService={service._id}
-                            service={service}
-                        ></UseService>)
-                    }
-                </div>
+                {
+                    useServices.map(service => <UseService
+                        useService={service._id}
+                        service={service}
+                    ></UseService>)
+                }
             </div>
         </div>
     );
