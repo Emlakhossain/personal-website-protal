@@ -1,6 +1,7 @@
 import React from 'react';
 import aboutImg from '../../img/about-img.png';
 import './AboutUs.css';
+import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
 
@@ -18,7 +19,7 @@ const AboutUs = () => {
                             Hello Every one, We are a team and we will be a pert of your thinking how to grow your business and policy. So please never forget us. If you think and remind us then we will grow and advise to you for promoting your business.
                             Hello Every one, We are a team and we will be a pert of your thinking how to grow your business and policy. So please never forget us. If you think and remind us then we will grow and advise to you for promoting your business.
                         </p>
-                        <button className="btn btn-primary">Learn More..</button>
+                        <Link to="/about"><button className="btn btn-primary">Learn More..</button></Link>
                     </div>
                 </div>
             </div>
