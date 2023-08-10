@@ -17,7 +17,7 @@ const Services = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
                     services.map(service => <Service
-                        key={service._id}
+                        key={service.id}
                         service={service}
                     ></Service>)
                 }
@@ -27,7 +27,7 @@ const Services = () => {
                 <div class="text-center hero-content">
                     <div class="max-w-md">
 
-                        <Link to="/ourService"><button class="btn btn-outline">View more services</button></Link>
+                        <Link to={`/ourService`}><button class="btn btn-outline">View more services</button></Link>
                     </div>
                 </div>
             </div>

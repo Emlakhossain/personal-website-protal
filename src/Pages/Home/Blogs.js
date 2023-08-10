@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Blogs = () => {
     return (
         <>
-            <h2 className='text-white font-bold text-center py-10'>Our Blog Page</h2>
+            <h2 className='text-white font-bold text-center py-10'>Blog</h2>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto justify-items-center py-10'>
                 <div className="card w-96 bg-slate-100 shadow-xl mb-4">
